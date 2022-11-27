@@ -1,3 +1,6 @@
 Git y Github | Curso Práctico de Git y Github Desde Cero
 
 https://www.youtube.com/watch?v=HiXLkL42tMU&ab_channel=Fazt
+
+Video de apoyo
+https://www.youtube.com/watch?v=mVjHJFscwsk&ab_channel=KeepCoding-TechSchool
