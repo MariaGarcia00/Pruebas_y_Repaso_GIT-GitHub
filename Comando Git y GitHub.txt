@@ -5,17 +5,20 @@ git init
 git config --global user.email "<email>"
 git config --global user.name "<name>"
 git status
-git add <archivo> o git add .
+git add <Nombre Archivo> o git add .
 git commit -m "<Texto descriptivo>"
 git log  
-git checkout --<archivo>
-git diff <archivo>
+git checkout --<Nombre Archivo>
+git diff <Nombre Archivo>
+git branch 
+git branch <Nombre Nueva Rama>
+git checkout <Nombre Rama>
 -----------------------------------------------------------
 	Para hacer COMMIT (Forma 1):
 git status
 git add <archivo>
 git commit
-	 -> Presionar la letra i 
+	-> Presionar la letra i 
 	-> Presionar la tecla enter (opcional)
 	-> Escribir Texto descriptivo
 	-> Presionar la tecla ESC
@@ -24,9 +27,22 @@ git commit
 git log
 
 	Para hacer COMMIT (Forma 2):
+git status
+git add <Nombre Archivo>
 git commit -m "<Texto descriptivo>"
+	-> Presionar q
 -----------------------------------------------------------
 
+
+(2) COMANDOS PARA TRABAJAR CON GITHUB DE MANERA REMOTA
+	Para esto se debe abrir el GITHUB desde internet o si se tiene en aplicación de escritorio
+	Se crea un Repositorio
+git remote add origin https://github.com/MariaGarcia00/Pruebas_y_Repaso_GIT-GitHub.git
+git branch -M main
+git push -u origin main 
+	Cuando el repositorio ya existe, entonces se debe clonar en GIT BASH
+git init 
+git clone https://github.com/MariaGarcia00/Pruebas_y_Repaso_GIT-GitHub.git 
 
 
 
