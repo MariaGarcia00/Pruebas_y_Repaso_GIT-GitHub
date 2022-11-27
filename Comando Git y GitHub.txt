@@ -1,3 +1,4 @@
+COMANDOS PARA TRABAJAR CON GIT DE MANERA LOCAL 
 git init 
 git status
 git add <archivo> o git add .
@@ -7,4 +8,17 @@ git config --global user.name "<name>"
 git commit -m "<Texto descriptivo>"
 git log  
 git checkout --<archivo>
-gir diff <archivo>
+git diff <archivo>
+-----------------------------------------------------------
+git add <archivo>
+git commit
+	Presionar la letra i 
+	Presionar la tecla enter
+	Escribir texto 
+	Presionar la tecla ESC
+	Presionar la tecla :
+	Presionar las teclas wq 
+
+
+
+
