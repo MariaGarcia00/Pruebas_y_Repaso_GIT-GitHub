@@ -11,17 +11,21 @@ git log
 git checkout --<archivo>
 git diff <archivo>
 -----------------------------------------------------------
-	Para hacer COMMIT:
+	Para hacer COMMIT (Forma 1):
 git status
 git add <archivo>
 git commit
 	 -> Presionar la letra i 
 	-> Presionar la tecla enter (opcional)
-	-> Escribir texto 
+	-> Escribir Texto descriptivo
 	-> Presionar la tecla ESC
 	-> Presionar la tecla :
 	-> Presionar las teclas wq 
 git log
+
+	Para hacer COMMIT (Forma 2):
+git commit -m "<Texto descriptivo>"
+-----------------------------------------------------------
 
 
 
